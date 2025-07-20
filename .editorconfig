@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0005: Using directive is unnecessary.
+dotnet_diagnostic.IDE0005.severity = error
+
+# IDE0048: Add parentheses for clarity
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity
